@@ -1,0 +1,56 @@
+\documentclass[a4paper,12pt]{scrartcl}
+\usepackage{geometry}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{sectsty}
+\sectionfont{\centering}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\geometry{a4paper,total={170mm,257mm},left=20mm,top=20mm,}
+
+\title{Project Proposal}
+\subtitle{Exploring Fatal Police Shootings\\
+\large{\small{Data Visualization}}
+}
+
+\author{Felix Kikaya}
+
+\date{\today}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+While crime seems to have declined in some parts of the country, the number of police related shootings seem to have been on the rise. High profile cases such the shooting of \cite{ferguson} Michael Brown in Ferguson, Missouri and Laquan McDonald in Chicago, Illinois, have not only drawn so much controversy, but also brought great attention to matters of policing within our society. These cases have poignantly filled majority of newspapers, television stations, as well as a variety of social media platforms. The discussion are endless. Due to this, movement groups such as Black Lives matter prompt inquiries on "use of force" and whether there is bias on how police make "shoot or don't shoot" decisions. Using data, a large number of police departments and agencies have found the impetus to analyze and study the effect of race on officers decisions - as well as looking at other relevant factors. Studies have shown that there exists a disproportionate number of fatal shootings within minority groups compared to whites, something a majority of the communities try to discern. This project attempts to look at a sample of documented fatal shootings from 2015 to 2018 while paying attention to race and other relevant factors. 
+\end{abstract}
+\section*{Introduction}
+
+Police brutality has been a contentious subject that is rooted into the history of the United States for many decades. It is not often that such a subject would occur without touching into matters of racial bias and the effect it has on police judgment. Recent advancements in technology such as proliferation of hand-held mobile devices have enabled an almost real-time sharing of information and shown quite a number of cases regarding how policing was being carried out in society. Another advancement has been the use of body cameras which police officers have been required to wear while on duty especially when interacting with a suspect. While such technologies where not utilized in the past, data on such interactions were virtually non-existent. Most cases were either not well documented or not reported at all. 
+ 
+In this era of information science, it is important to utilize the resources that are readily available in our societies to study such cases. Using data, a more knowledgeable approach can be given to the issue. Researchers at different agencies such as the Guardian, the vice, and the Washington Post have spearheaded the initiative to collect data from fatal and non-fatal shootings from different police departments across the country. These agencies, however, are still faced with challenges, such as data not being public or some departments not providing all the events that lead to shooting of the suspect. This project will focus on data specifically collected by the Washington Post\cite{fatal_force}. 
+
+\section*{Background Data}
+
+The Post \cite{washington_post},began tracking details of each police shootings starting January of 2015, including the circumstances that led up to the shooting. The focused on attributes such as race, age, sex, state, city, armed or unarmed e.t.c. They also searched for documentation on whether the officer was equipped with a body camera prior to the shooting or not. The Washington Post's databases get updated regularly as they receive information on shootings as they get reported.
+
+To add onto the Washington Post's fatal shooting data-set, data pulled from four other databases will be used. These will help analyze other relevant factors such as racial composition and population, poverty levels in the community - including median income and level of education, Including other factors that often determine the magnitude of crime in communities. It is expected that when poverty level are high while education is low, crime would be high. This can also have an influence into the police officers judgment of the events leading to the shooting\cite{deadly_force}. 
+
+However, much information on the police officer is not provided besides use of body camera. It is important to note that some basic information on the officer can better help see there is indeed a trend. Factors such as race, age, sex, and experience of the officer are some of the things not reported are some of the things not reported.
+
+\section*{Objectives}
+
+The main objective of this project will be to determine that, if adjusted to population, what is the proportion of different race groups involved in fatal police shootings. This will be determined by the population of the individual race groups in relation to the number of fatal shootings. Other objects are listed as follows;
+
+\begin{itemize}
+  \item Determine and compare the number of fatal shootings among different cities. The top ten cities with the highest number of fatal shootings will be computed. With this, the racial composition of the population will be studied.
+  \item The use of body camera on a year to year basis will be analyzed to determine if there has been an increase or decrease in usage as a result of the recent campaigns.
+  \item A distribution of the age of the suspects will be explored while also looking at the gender.
+  \item A visualization of median income levels across all the states will be plotted to determine poverty levels as a factor that contributes to crime. Change in poverty levels versus percentage of people that have completed high school will be evaluated to determine if there is a direct relationship between education and poverty.
+  \item Since mental state of the suspects has been a component in such discussions, cases of mental illness will be determined in each racial group. This will determine how many suspects were mentally ill and also whether they were armed, and what kind of weapon they had.
+\end{itemize}
+Other objectives will be drawn as the data is being explored.
+
+\bibliographystyle{plain}
+\bibliography{fatal}
+
+\end{document}
